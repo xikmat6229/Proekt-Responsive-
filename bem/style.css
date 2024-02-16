@@ -56,6 +56,11 @@ nav {
 @media (max-width: 768px) {
   .section1 {
     flex-direction: column;
+    width: 750px;
+
+  }
+  .section1 img{
+    
   }
 }
 @media (max-width: 375px) {
@@ -137,6 +142,7 @@ height: 84px;
 }
 .pustoy3{
   height: 100px;
+
 }
 
 .casd{
@@ -213,4 +219,223 @@ footer .right i{
   display: flex;align-items: center;
   justify-content: space-between;
   width: 120px;
+}
+.second {
+  width: 536px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.second div{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 39px;
+}
+
+
+
+
+@media(max-width:768px){
+  .main{
+    width: 768px;
+    height: auto;
+  }
+  .section1 img{
+    width: 159px;
+    height: 300px;
+
+
+  }
+  .section2{
+    width: 768px;
+   flex-wrap: wrap;
+   height: 615px;
+   justify-content: center;
+    
+  }
+  .first h1{
+    font-size: 48px;
+  }
+  .first p{
+    width: 456px;
+    font-size: 15px;
+  }
+  .second{
+    width: 536px;
+    
+  }
+  .section3{
+    width: 768px;
+    flex-wrap:wrap ;
+  }
+  .section4{
+    margin-top: 60px;
+   
+  }
+  .pustoy3{
+   height: 60px;
+  }
+  .casd{
+    width: 223px;
+    height: 311px;
+
+  }
+  .casd p{
+    font-size: 13px;
+    width: 220px;font-size: 18px ;
+  }
+  .casd h1{
+   width: 18px;
+  }
+  .right img{
+    animation-name: zzz;
+    animation-duration: 4s;
+      animation-iteration-count: infinite;
+      transition: linear;
+  }
+  @keyframes zzz{
+    0%{
+      margin-bottom: 100px;
+    }
+    90%{
+      margin-top: 100px;
+    }
+    100%{
+      margin-top: 100px;
+    }
+  } 
+}
+@media(max-width:375px){
+  .section1{
+    width: 375px;
+    flex-direction: column;
+
+  }
+  .section1 h1{
+    font-size: 32px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .section1 img{
+    margin: 0 auto;
+    width: 113px;
+    height: 223px;
+  }
+  .section2{
+    width: 375px;
+    height: 670px;
+  }
+  .section2 h1{
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .section2 p{
+    font-size:15px;
+    width: 327px;
+    text-align:center;
+    margin: 0 auto;
+  }
+  .section2 button{
+   
+    margin-top: 70px;
+    margin-left: 90px;
+  }
+  .second{
+    
+    width: 280px;
+    height: 250px;
+  
+
+  }
+  .section3{
+    width: 375px;
+    flex-direction: column;
+  }
+  .section3 img{
+    width: 328px;
+height: 209px;
+margin: 0 auto;
+flex-direction: column;
+
+  }
+  .section3 h1{
+    font-size: 36px;
+    margin: 0 auto;
+    margin-left: 30px;
+  }
+  .section3 p{
+    font-size: 15px;
+    width: 328px;
+    text-align: center;
+  }
+  main{
+    width: 380px;
+  }
+  .section4{
+    flex-direction: column;
+    height: 1100px;
+  }
+  .cards{
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+  }
+  .casd{
+    width: 328px;
+    height: 280px;  
+    margin: 0 auto;
+  }
+  .div-img{
+    margin: 0 auto;
+  }
+  .right img{
+    animation-name: zzz;
+    animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes zzz{
+    0%{
+      margin-bottom: 100px;
+    }
+    90%{
+      margin-top: 100px;
+    }
+    100%{
+      margin-top: 100px;
+    }
+  }
+}
+.right img{
+  animation-name: hasanni-aspop;
+  animation-timeline: 20s;
+  animation-duration: 20s ;
+  animation-iteration-count: infinite;
+  transition: 0.5 linear;
+}
+@keyframes hasanni-aspop{
+  0%{
+    margin-bottom: 100px;
+  }
+  25%{
+    margin-left: 30px;
+  }
+  50%{
+    margin-top: 100px;
+  }
+  75%{
+    margin-right: 120px;
+    100%{
+      margin-bottom: 100px
+    }
+  }
 }
